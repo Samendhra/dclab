@@ -15,3 +15,9 @@ program ADD_PROG
         int add(numbers) = 1;
     } = 1; /* End of version definition with version number 1 */
 } = 0x4562877; /* End of program definition with program number 0x4562877 */
+
+/*  sudo apt-get install rpcbind
+    rpcinfo
+    rpcgen  -a  -C add.x
+    make  -f  Makefile.add
+*/
